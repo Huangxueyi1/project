@@ -1,0 +1,32 @@
+/*版心*/
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/*清除浮动*/
+.clear{
+	clear: both;
+}
+.clearfix:after{
+	content: "";
+	height: 0;
+	display: block;
+	clear: both;
+}
+.clearfix{
+	zoom: 1;
+}
+
+/*设置快捷浮动*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/*设置外边距*/
+.mb30{
+	margin-bottom:30px ;
+}
+
